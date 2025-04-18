@@ -47,12 +47,12 @@ spring:
 eureka:
   instance:
     prefer-ip-address: false
-    hostname: localhost
+    hostname: 3.7.68.5
   client:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: http://3.7.68.5:8761/eureka
 management:
   health:
     circuitbreakers:
