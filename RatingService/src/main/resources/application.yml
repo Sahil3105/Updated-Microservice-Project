@@ -25,6 +25,7 @@ eureka:
       defaultZone: http://3.7.68.5:8761/eureka
   instance:
     prefer-ip-address: false
+    hostname: 3.7.68.5
 
 okta:
   oauth2:
