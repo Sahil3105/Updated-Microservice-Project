@@ -22,9 +22,9 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      defaultZone: http://registry:8761/eureka
+      defaultZone: http://3.7.68.5:8761/eureka
   instance:
-    prefer-ip-address: true
+    prefer-ip-address: false
 
 okta:
   oauth2:
