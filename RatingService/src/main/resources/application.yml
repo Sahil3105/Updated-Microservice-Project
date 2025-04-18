@@ -2,7 +2,7 @@ spring:
   application:
     name: RATING-SERVICE
   datasource:
-    url: jdbc:mysql://mysql-user:3306/microservices
+    url: jdbc:mysql://mysql-user-5:3306/microservices
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
