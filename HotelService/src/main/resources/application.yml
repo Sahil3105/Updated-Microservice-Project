@@ -22,7 +22,7 @@ spring:
 eureka:
   instance:
     prefer-ip-address: false
-    hostname: 3.7.68.5
+    hostname: 65.0.75.105
   client:
     fetch-registry: true
     register-with-eureka: true
